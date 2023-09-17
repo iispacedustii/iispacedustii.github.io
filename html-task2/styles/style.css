@@ -17,7 +17,7 @@ body {
 .header-content {
     margin: auto;
     max-width: 960px;
-    padding: 5%;
+    padding: 2%;
 }
 
 .nav {
@@ -36,7 +36,7 @@ body {
   background-color: rgba(20,56,22,0.5);
 }
 .table-content {
-  padding-left: 5%; max-width:50%
+  padding-left: 5%; max-width:500px
 }
 
 .even-cells {
@@ -46,7 +46,7 @@ body {
   background-color: rgba(66,66,50,0.3);;
 }
 .form {
-  padding-left: 5%;
+  padding-left: 2%;
   margin: 5% 0; width: 100%;
   color: #116644;
   background-color: rgba(20,56,22,0.5);
