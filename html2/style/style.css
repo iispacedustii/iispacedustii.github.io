@@ -1,4 +1,11 @@
+* {
+    margin: 0;
+    color: #228855;
+}
+body {
+    background-color: #003322;
+}
+
 .nav {
- border: 5px solid red; 
- padding: 5px;
+background-color: #115533;
 }
