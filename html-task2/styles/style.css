@@ -28,22 +28,24 @@ body {
 
 .link-list {
   margin: 5% 0; width: 100%;
-  background-color: rgba(20,56,22,0.5);
+  background-color:rgba(66,66,58,0.2);
+  <!--background-color: rgba(20,56,22,0.5);-->
 }
 
 .table {
   width: 100%;
-  background-color: rgba(20,56,22,0.5);
+  background-color:rgba(66,66,58,0.2);
+  <!--background-color: rgba(20,56,22,0.5);-->
 }
 .table-content {
-  padding-left: 5%; max-width:500px
+  padding-left: 5%; max-width:500px;
 }
 
 .even-cells {
   background-color: rgba(66,66,58,0.3); <!-- rgba(20,56,22,0.5) на фоне #1B002D = #111c22 -->
 }
 .odd-cells {
-  background-color: rgba(66,66,50,0.3);;
+  background-color: rgba(66,66,50,0.3);
 }
 .form {
   padding-left: 2%;
