@@ -51,3 +51,9 @@ body {
   color: #116644;
   background-color: rgba(20,56,22,0.5);
 }
+
+.footer {
+display: block;
+align-items: left;
+background-color: #334433;
+}
