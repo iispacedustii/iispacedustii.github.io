@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #1B002D; <!-- #111c22 -->
+  background-color: #111c22; <!-- #1B002D -->
 }
 
 .header {
@@ -12,6 +12,12 @@ body {
   background-color: #334433;
   min-height: 90px; width: 100%;
   align-items: center;
+}
+
+.header-content {
+    margin: auto;
+    max-width: 960px;
+    padding: 5%;
 }
 
 .nav {
@@ -26,8 +32,11 @@ body {
 }
 
 .table {
-  margin: 5% 0; width: 100%;
+  width: 100%;
   background-color: rgba(20,56,22,0.5);
+}
+.table-content {
+  padding-left: 5%; 
 }
 
 .even-cells {
@@ -38,6 +47,7 @@ body {
   background-color: rgba(71,66,53,0.3);;
 }
 .form {
+  padding-left: 5%;
   margin: 5% 0; width: 100%;
   background-color: rgba(20,56,22,0.5);
 }
