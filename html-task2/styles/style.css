@@ -48,5 +48,6 @@ body {
 .form {
   padding-left: 5%;
   margin: 5% 0; width: 100%;
+  color: #116644;
   background-color: rgba(20,56,22,0.5);
 }
