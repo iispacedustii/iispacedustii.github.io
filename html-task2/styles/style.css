@@ -4,9 +4,12 @@
   font-size: 24px;
 }
 
+input {
+  color: black;
+}
+
 body {
   background-color: #111c22; <!-- #1B002D -->
-  max-width: 960px;
 }
 
 .header {
