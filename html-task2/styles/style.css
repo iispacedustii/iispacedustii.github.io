@@ -75,7 +75,6 @@ body {
 .footer {
 display: block;
 align-items: left; 
-padding: 2%;
-min-height: 90;
+padding-bottom: 80px;
 background-color: #334433;
 }
