@@ -84,8 +84,6 @@ body {
 .footer {
 display: block;
 align-items: left; 
-padding-bottom: 80px;
-padding-left: 20px;
-margin-top: 2%;
+
 background-color: #334433;
 }
