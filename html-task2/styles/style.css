@@ -21,6 +21,10 @@ body {
     padding: 0%;
 }
 
+#header-link-list {
+  align-items: right;
+}
+
 .nav {
   margin: 5% 0; width: 100%;
   background-color:rgba(66,66,58,0.2);
