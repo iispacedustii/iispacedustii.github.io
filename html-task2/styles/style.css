@@ -30,7 +30,9 @@ body {
 }
 
 .nav {
-  margin: 2% 0; width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
   background-color:rgba(66,66,58,0.2);
   align-items: center;
 }
@@ -44,7 +46,9 @@ body {
 }
 
 .link-list {
-  margin: 2% 0; width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
   background-color:rgba(66,66,58,0.2);
   <!--background-color: rgba(20,56,22,0.5);-->
 }
@@ -52,7 +56,8 @@ body {
 .table {
   max-width: 800px;
   background-color:rgba(66,66,58,0.2);
-  margin: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   <!--background-color: rgba(20,56,22,0.5);-->
 }
 .table-content {
@@ -70,7 +75,9 @@ body {
 .form {
   color: #116644;
   padding-left: 2%;
-  margin: 2% 0; width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
   background-color: rgba(20,56,22,0.5);
 }
 
@@ -79,6 +86,6 @@ display: block;
 align-items: left; 
 padding-bottom: 80px;
 padding-left: 20px;
-margin: 2%;
+margin-top: 2%;
 background-color: #334433;
 }
