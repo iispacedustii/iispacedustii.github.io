@@ -11,7 +11,6 @@ body {
   display: block;
   background-color: #334433;
   min-height: 90px; width: 100%;
-  align-items: center;
 }
 
 .header-content {
