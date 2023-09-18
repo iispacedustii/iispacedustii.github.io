@@ -27,7 +27,9 @@ body {
 }
 
 .header-link-list {
-  align-items: right;
+  display: inline;
+  float: right;
+  font-size: x-large;
   margin: 20px;
   max-width:800px; 
   background-color:rgba(63,81,58,0.5); <!-- rgba(58,61,58,0.5) -->
