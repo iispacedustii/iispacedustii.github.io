@@ -9,14 +9,15 @@ body {
 }
 
 .header {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background-color: #334433;
   min-height: 90px; width: 100%;
   margin-bottom: 2%;
 }
 
 .header-content {
-    display: block;
+    display: flex;
     margin: auto;
     max-width: 960px;
     padding: 0%;
@@ -33,7 +34,7 @@ body {
 }
 
 .nav {
-  display: block;
+  display: flex;
 
   padding: 1px;
 
@@ -43,7 +44,7 @@ body {
 }
 
 .nav-link {
-  display: block;
+  display: flex;
   max-width:800px; 
   background-color:rgba(58,61,58,0.5); 
 
@@ -57,7 +58,7 @@ body {
 }
 
 .link-list {
-  display: block;
+  display: flex;
   max-width: 960px;
 
   margin: auto;
@@ -71,7 +72,7 @@ body {
 }
 
 .table {
-  display: block;
+  display: flex;
 
   margin: auto;
   margin-top: 2%;
@@ -96,7 +97,7 @@ td {
 }
 
 .form {
-  display: block;
+  display: flex;
   color: #116644;
   padding: 2%;
   margin: auto;
@@ -117,7 +118,7 @@ textarea{
 }
 
 .footer {
-display: block;
+display: flex;
 align-items: left; 
 min-height: 60px;
 padding-left: 20px;
