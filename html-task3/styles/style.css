@@ -17,6 +17,8 @@ body {
 }
 
 .header main {
+  padding: 60px;
+  align-text: center;
   flex: 2;
   order: 2;
 }
