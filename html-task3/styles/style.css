@@ -17,28 +17,28 @@ body {
   margin-bottom: 60px;
 }
 
-<!--.header-link-list {
-  display: -webkit-inline-flex;
-  display: inline-flex; 
+#header aside {
+  flex: 1;
+  order: 1;
+  align-items: right;
+}
+
+#header main {
+  flex: 1;
+  order: 2;
+  margin: 60px;
+  align-text: center;
+}
+
+#header link-list {
+  flex: 1;
+  order: 3;
   float: right;
   font-size: x-large;
   margin: 20px;
   width:400px;
   max-height:100px;
   background-color:rgba(63,81,58,0.5);
-}-->
-
-
-#header main {
-  flex: 2;
-  order: 2;
-  margin: 60px;
-  align-text: center;
-}
-#header aside {
-  flex: 1;
-  order: 1;
-  align-items: right;
 }
 
 .nav {
