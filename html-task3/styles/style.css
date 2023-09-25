@@ -8,21 +8,21 @@ body {
   background-color: #111c22;
 }
 
-.header {
+#header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: #334433;
   min-height: 90px; width: 100%;
   margin-bottom: 60px;
 }
 
-.header main {
+#header main {
   padding: 60px;
   align-text: center;
   flex: 2;
   order: 2;
 }
-.header aside {
+#header aside {
   flex: 1;
   order: 1;
 }
