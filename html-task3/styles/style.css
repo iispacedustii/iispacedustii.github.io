@@ -30,15 +30,15 @@ body {
 
 
 #header main {
-  padding: 60px;
-  align-text: center;
   flex: 2;
   order: 2;
+  padding: 60px;
+  align-text: center;
 }
 #header aside {
   flex: 1;
   order: 1;
-  float: right;
+  align-items: right;
 }
 
 .nav {
