@@ -17,7 +17,8 @@ body {
 }
 
 .header-content {
-    display: flex;
+    display: -webkit-inline-flex;
+    display: inline-flex; 
     margin: auto;
     max-width: 960px;
     padding: 0%;
