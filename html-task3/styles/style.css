@@ -38,6 +38,7 @@ body {
 #header aside {
   flex: 1;
   order: 1;
+  float: right;
 }
 
 .nav {
