@@ -19,19 +19,19 @@ body {
 
 #header aside {
   flex: 1;
-  order: 1;
+  order: -1;
   align-items: right;
 }
 
 #header main {
-  flex: 2;
+  flex: 1;
   order: 2;
   margin: 60px;
   align-text: center;
 }
 
 #header link-list {
-  flex: 3;
+  flex: 1;
   order: 3;
   float: right;
   font-size: x-large;
