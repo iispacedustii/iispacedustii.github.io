@@ -12,7 +12,7 @@ body {
   display: block;
   background-color: #334433;
   min-height: 90px; width: 100%;
-  margin-bottom: 2%;
+  margin-bottom: 60px;
 }
 
 .header-content {
@@ -64,10 +64,10 @@ body {
   max-width: 960px;
 
   margin: auto;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 
-  padding: 2%;
+  padding: 30px;
   align-items: center;
   
   background-color:rgba(66,66,58,0.2);
@@ -77,10 +77,10 @@ body {
   display: flex;
 
   margin: auto;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 
-  padding-bottom: 2%;
+  padding-bottom: 30px;
   padding-right: 30%;
   padding-left: 30%;
 
@@ -101,10 +101,10 @@ td {
 .form {
   display: flex;
   color: #116644;
-  padding: 2%;
+  padding: 30px;
   margin: auto;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 30px;
+  margin-bottom: 30px;
   max-width: 960px;
   background-color: rgba(20,56,22,0.5);
 }
@@ -124,6 +124,6 @@ display: flex;
 align-items: left; 
 min-height: 60px;
 padding-left: 20px;
-margin-top: 2%;
+margin-top: 30px;
 background-color: #334433;
 }
