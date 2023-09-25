@@ -20,15 +20,20 @@ body {
 
 #header aside {
   flex: 1;
-  order: -1;
+  order: 1;
   align-items: right;
 }
 
 #header main {
   flex: 1;
   order: 2;
-  margin: 60px;
   align-text: center;
+}
+
+#header links {
+  flex: 1;
+  order: 3;
+  align-text: left;
 }
 
 .header-link-list {
