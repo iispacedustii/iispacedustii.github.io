@@ -8,7 +8,7 @@ body {
   background-color: #111c22;
 }
 
-#header {
+#header main, #header aside{
   display: flex;
   flex-direction: row;
   background-color: #334433;
