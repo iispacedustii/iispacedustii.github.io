@@ -31,13 +31,11 @@ body {
   align-text: center;
 }
 
-#header link-list {
-  flex: 1;
-  order: 3;
-  float: right;
+.header-link-list {
+  align-text: center;
   font-size: x-large;
   margin: 20px;
-  width:400px;
+  width:200px;
   max-height:100px;
   background-color:rgba(63,81,58,0.5);
 }
