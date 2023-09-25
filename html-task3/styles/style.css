@@ -21,16 +21,7 @@ body {
     max-width: 960px;
 }
 
-<!--.header-link-list {
-  display: -webkit-inline-flex;
-  display: inline-flex; 
-  float: right;
-  font-size: x-large;
-  margin: 20px;
-  width:400px;
-  max-height:100px;
-  background-color:rgba(63,81,58,0.5);
-}-->
+
 
 .nav {
   display: flex;
@@ -42,8 +33,12 @@ body {
   
 }
 
-.nav, nav-link, link-list, form {
+.nav, nav-link, link-list, form, footer {
   padding: 10px;
+}
+
+.nav-link, link-list, table, form, footer {
+margin-top: 30px;
 }
 
 .nav-link {
@@ -53,7 +48,6 @@ body {
   background-color:rgba(58,61,58,0.5); 
 
   margin: auto; 
-  margin-top: 20px; 
   margin-bottom: 20px; 
 
   text-align: center;
@@ -64,7 +58,6 @@ body {
   max-width: 960px;
 
   margin: auto;
-  margin-top: 30px;
   margin-bottom: 30px;
 
   align-items: center;
@@ -76,7 +69,6 @@ body {
   display: flex;
 
   margin: auto;
-  margin-top: 30px;
   margin-bottom: 30px;
 
   padding-bottom: 30px;
@@ -101,7 +93,6 @@ td {
   display: flex;
   color: #116644;
   margin: auto;
-  margin-top: 30px;
   margin-bottom: 30px;
   max-width: 960px;
   background-color: rgba(20,56,22,0.5);
@@ -121,7 +112,18 @@ textarea{
 display: flex;
 align-items: left; 
 min-height: 60px;
-padding-left: 20px;
 margin-top: 30px;
 background-color: #334433;
 }
+
+
+<!--.header-link-list {
+  display: -webkit-inline-flex;
+  display: inline-flex; 
+  float: right;
+  font-size: x-large;
+  margin: 20px;
+  width:400px;
+  max-height:100px;
+  background-color:rgba(63,81,58,0.5);
+}-->
