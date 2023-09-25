@@ -9,8 +9,7 @@ body {
 }
 
 .header {
-  display: flex;
-  flex-direction: column;
+  display: block;
   background-color: #334433;
   min-height: 90px; width: 100%;
   margin-bottom: 2%;
@@ -20,10 +19,9 @@ body {
     display: flex;
     margin: auto;
     max-width: 960px;
-    padding: 0%;
 }
 
-.header-link-list {
+<!--.header-link-list {
   display: -webkit-inline-flex;
   display: inline-flex; 
   float: right;
@@ -33,7 +31,7 @@ body {
   max-height:100px;
   background-color:rgba(63,81,58,0.5);
   padding:10px;
-}
+}-->
 
 .nav {
   display: flex;
