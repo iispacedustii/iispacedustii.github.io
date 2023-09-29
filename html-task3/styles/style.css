@@ -36,7 +36,6 @@ body {
 }
 
 .header-link-list {
-  float: center;
   margin: 20px;
   background-color:rgba(63,81,58,0.5);
 }
@@ -45,7 +44,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  width: 100%;
+  width: 100vw;
   background-color:rgba(66,66,58,0.2);
   
 }
@@ -108,8 +107,11 @@ min-height: 60px;
 margin-top: 30px;
 background-color: #334433;
 }
-<!-- @.@ -->
-@media screen and (min-width: 800px) {
-  #main-aside-wrapper {
-    flex-direction: row;
-  }
+
+@media only screen and (max-width: 600px) {
+
+
+
+
+  
+}
