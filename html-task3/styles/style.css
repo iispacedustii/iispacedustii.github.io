@@ -64,6 +64,7 @@ body {
 #nav nav-link-1 {
   flex: 1;
   order: 1;
+  display: block;
   width: 120px; 
   margin: 30px auto 20px; 
   text-align: center;
@@ -72,6 +73,7 @@ body {
 #nav nav-link-2 {
   flex: 1;
   order: 2;
+  display: block;
   width: 120px; 
   margin: 30px auto 20px; 
   text-align: center;
