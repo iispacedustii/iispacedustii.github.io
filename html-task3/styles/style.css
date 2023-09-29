@@ -110,8 +110,22 @@ background-color: #334433;
 
 @media only screen and (max-width: 600px) {
 
+.header {
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
 
 
-
+.links {
+  font-size: medium;
+  display: inline;
+}
+    
+.nav {
+  display: inline;
+  float: right;
+  font-size: x-large;
+}
   
 }
