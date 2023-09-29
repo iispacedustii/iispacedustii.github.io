@@ -109,7 +109,7 @@ background-color: #334433;
 .header {
   display: inline;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
