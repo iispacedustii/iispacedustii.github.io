@@ -44,7 +44,7 @@ body {
 
 .link-nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 10px;
   background-color:rgba(66,66,58,0.2);
 }
@@ -56,46 +56,30 @@ body {
   background-color:rgba(66,66,58,0.2);
 }
 
-
 .link-list, form, footer {
   padding: 10px;
 }
 
-#nav nav-link-1 {
+#nav nav-link-1, nav-link-2, nav-link-3, nav-link-4 {
   flex: 1;
-  order: 1;
   display: block;
   width: 120px; 
   margin: 30px auto 20px; 
   text-align: center;
   background-color:rgba(58,61,58,0.5); 
+}
+
+#nav nav-link-1 {
+  order: 1;
 }
 #nav nav-link-2 {
-  flex: 1;
   order: 2;
-  display: block;
-  width: 120px; 
-  margin: 30px auto 20px; 
-  text-align: center;
-  background-color:rgba(58,61,58,0.5); 
 }
-
 #nav nav-link-3 {
-  flex: 1;
   order: 3;
-  width: 120px; 
-  margin: 30px auto 20px; 
-  text-align: center;
-  background-color:rgba(58,61,58,0.5); 
 }
-
 #nav nav-link-4 {
-  flex: 1;
   order: 4;
-  width: 120px; 
-  margin: 30px auto 20px; 
-  text-align: center;
-  background-color:rgba(58,61,58,0.5); 
 }
 
 .link-list {
@@ -177,9 +161,10 @@ background-color: #334433;
 }
     
 .link-nav {
-  display: inline;
-  float: right;
-  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color:rgba(66,66,58,0.2);
 }
   
 #nav {
