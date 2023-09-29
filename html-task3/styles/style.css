@@ -41,12 +41,8 @@ body {
 }
 
 .nav {
-  display: flex;
   flex-direction: column;
-
-  width: 100vw;
   background-color:rgba(66,66,58,0.2);
-  
 }
 
 .nav, nav-link, link-list, form, footer {
