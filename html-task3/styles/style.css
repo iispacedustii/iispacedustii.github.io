@@ -107,6 +107,7 @@ background-color: #334433;
 @media only screen and (max-width: 960px) {
 
 .header {
+  display: inline;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
