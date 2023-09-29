@@ -110,7 +110,7 @@ background-color: #334433;
 
 .header {
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -131,7 +131,7 @@ background-color: #334433;
 }
 
 #header links {
-  flex: 1;
+  flex: 3;
   order: 3;
   width: 100%;
   align-text: center;
