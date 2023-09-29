@@ -27,6 +27,7 @@ body {
 #header main {
   flex: 1;
   order: 2;
+  line-height: 100px;
   align-text: center;
 }
 
