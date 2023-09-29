@@ -104,10 +104,9 @@ margin-top: 30px;
 background-color: #334433;
 }
 
-<!--@media screen and (max-width: 960px) {
+@media screen and (min-width: 960px) {
 
 .header {
-  display: inline;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
@@ -125,4 +124,4 @@ background-color: #334433;
   font-size: x-large;
 }
   
-}-->
+}
