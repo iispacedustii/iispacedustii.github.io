@@ -124,5 +124,14 @@ background-color: #334433;
   float: right;
   font-size: x-large;
 }
+
+.link-list {
   
+  max-width: 600px;
+  margin: 30px auto 30px;
+  align-items: center;
+  
+  background-color:rgba(66,66,58,0.2);
+}
+
 }
