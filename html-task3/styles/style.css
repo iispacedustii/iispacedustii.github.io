@@ -114,9 +114,9 @@ background-color: #334433;
 }
 
 
-.links {
-  font-size: medium;
-  display: inline;
+#header links {
+  display: block;
+  align-text: center;
 }
     
 .nav {
