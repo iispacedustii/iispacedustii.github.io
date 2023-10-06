@@ -8,6 +8,7 @@ body {
   background-color: #111c22;
 }
 
+d-flex col-xs-12
 #header {
   display: flex;
   flex-direction: row;
@@ -17,20 +18,21 @@ body {
   margin-bottom: 60px;
 }
 
+d-flex col-xs-4 col-md-6
 #header aside {
   flex: 1;
   order: 1;
   align-items: right;
   margin: 30px 0 30px 60px  ;
 }
-
+d-flex col-xs-4 col-md-6
 #header main {
   flex: 1;
   order: 2;
   line-height: 100px;
   align-text: center;
 }
-
+d-flex col-xs-4 col-md-12
 #header links {
   flex: 1;
   order: 3;
@@ -42,6 +44,7 @@ body {
   background-color:rgba(63,81,58,0.5);
 }
 
+d-flex col-md-2
 .link-nav {
   display: flex;
   flex-direction: row;
@@ -49,6 +52,7 @@ body {
   background-color:rgba(66,66,58,0.2);
 }
 
+d-flex
 #nav {
   display: flex;
   flex-direction: row;
