@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #aaa;
+  background-color: #ecd;
 }
 
 .form-box {
@@ -12,4 +12,5 @@ body {
   padding: 30px;
   min-width: 600px;
   width: 60%;
+  background-color: #b9b;
 }
