@@ -1,5 +1,8 @@
 * {
   margin: 0;
-  color: #8CDD70;
   font-size: 24px;
+}
+
+body {
+  background-color: #aaa;
 }
