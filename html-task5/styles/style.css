@@ -6,3 +6,10 @@
 body {
   background-color: #aaa;
 }
+
+.form-box {
+  margin: auto;
+  padding: 30px;
+  min-width: 600px;
+  width: 60%;
+}
