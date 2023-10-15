@@ -1,4 +1,4 @@
-button.onclick = function() 
+button.onclick = compute() 
 {
   let weight = document.getElementsByName("weight");
   let cost = document.getElementsByName("item");
@@ -11,5 +11,11 @@ button.onclick = function()
   }
  
   result.innerHTML += weight[0].value * cost.value;
+  return false;
+}
+
+button.onclick = nulify() 
+{
+  result.innerHTML = 0;
   return false;
 }
