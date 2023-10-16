@@ -6,13 +6,13 @@ button.onclick = compute()
   let cost = document.getElementsByName("item");
   let result = document.getElementById("result");
   
-  if (!Number(weight[0].value) || Number(weight[0].value) < 0)
+  if (!Number(weight.value) || Number(weight.value) < 0)
   {
     alert("Вес введен некорректно");
     return false;
   }
   
-  result.innerText =  String(result + weight[0].value * cost.value) + "руб";
+  result.innerText =  String(result + weight.value * cost.value) + "руб";
   return false;
 }
 
