@@ -2,17 +2,20 @@ document.addEventListener("DOMContentLoaded", function (event) {  console.log("D
 
 button.onclick = compute() 
 {
+  let text = document.getElementById('text');
   let weight = document.getElementsByName("weight");
   let cost = document.getElementsByName("item");
-  let result = document.getElementById("result");
+  //let cost = cost.value;
+
+
   
-  if (!Number(weight.value) || Number(weight.value) < 0)
+  if (!Number(weight.value) || Number(weight.value) <= 0)
   {
     alert("Вес введен некорректно");
     return false;
   }
-
-  result.innerHTML =  String(result + weight.value * cost.value) + "руб";
+  
+  text.innerHTML =  String(result + weight.value * cost.value) + "руб";
   return false;
 }
 
