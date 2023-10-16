@@ -11,8 +11,8 @@ button.onclick = compute()
     alert("Вес введен некорректно");
     return false;
   }
-  
-  result.innerText =  String(result + weight.value * cost.value) + "руб";
+
+  result.innerHTML =  String(result + weight.value * cost.value) + "руб";
   return false;
 }
 
