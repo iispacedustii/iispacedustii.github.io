@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function (event) {  console.log("DOM fully loaded and parsed");  });
+
 button.onclick = compute() 
 {
   let weight = document.getElementsByName("weight");
