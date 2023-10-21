@@ -7,22 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Задание 5</title>
     <link rel="stylesheet" href="../styles/style.css">
-    <script src="../js/script.js"></script>  
+    
   </head>
   
   <body><div id="result"></div>
     <form class="form-box">
-      <input name="weight" type="text" placeholder="Введите вес в граммах"></input> <br>
+      <input id="weight" name="weight" type="text" placeholder="Введите вес в граммах"></input> <br>
       <select name="item">
         <option value="1">Вариант 1</option>
         <option value="2">Вариант 2</option>
         <option value="3">Вариант 3</option>
       </select>
-      <button id="button"onclick="return compute();">Добавить в общую стоимость</button>
-      <button id="button"onclick="return nulify();">Сбросить</button>
+      <button id="calculate">Просчитать</button>
+      <button id="nulify">Сбросить</button>
 
-      <p id="text">Стоимость: </p>
+      <div id="result">Стоимость: </div>
     </form>
+    <script src="../js/script.js" defer></script>  
   </body>
   
 </html>
