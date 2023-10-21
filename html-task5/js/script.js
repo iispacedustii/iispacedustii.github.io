@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   //let cost = cost.value;
   if (!Number(weight.value) || Number(weight.value) <= 0)
   { alert("Вес введен некорректно"); return false; }
+  
   text.innerHTML =  String(result + weight.value * cost.value) + "руб";
   return false;}
 
