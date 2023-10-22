@@ -23,7 +23,7 @@ let toCalculate = () => {
 
     let domAns = document.getElementById("result");
     if(!Number(weight.value) || Number(weight.value) <= 0)
-      domAns.innerHTML = String(Number(item) * Number(weight));
+      return String(Number(item) * Number(weight));
     else
-      domAns.innerHTML = "Некорректно введен вес";
+      return "Некорректно введен вес";
 };
