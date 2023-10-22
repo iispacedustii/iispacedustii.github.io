@@ -18,11 +18,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
 };*/
 
 let toCalculate = () => {
-    let weight = document.getElementById("weight").value;
-    let item = document.getElementById("item").value;
+    let weight = document.getElementById("weight");
+    let item = document.getElementById("item");
 
     let domAns = document.getElementById("result");
-    if(!Number(weight.value) || Number(weight.value) <= 0)
+    if(!Number(weight.value) || Number(weight) <= 0)
       return String(Number(item) * Number(weight));
     else
       return "Некорректно введен вес";
