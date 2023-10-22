@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     buttonA.addEventListener("click", toCalculate);
 });
 
-let toCalculate = () => {
+/*let toCalculate = () => {
     let weight = document.getElementById("weight").value;
     let item = document.getElementById("item").value;
   
@@ -15,4 +15,15 @@ let toCalculate = () => {
   
     let domAns = document.getElementById("result");
     domAns.replaceChildren(`${value}`);
+};*/
+
+let toCalculate = () => {
+    let weight = document.getElementById("weight").value;
+    let item = document.getElementById("item").value;
+
+    let domAns = document.getElementById("result");
+    if(!Number(weight.value) || Number(weight.value) <= 0)
+      domAns.innerHTML = "Стоимость: " + String(Number[item] * Number(weight));
+    else
+      domAns.innerHTML = "Некорректно введен вес";
 };
