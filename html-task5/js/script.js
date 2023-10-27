@@ -13,7 +13,7 @@ let toCalculate = () => {
     domAns.replaceChildren(`${value}`);
 };*/
 
-function toCalculate {
+function toCalculate() {
     let weight = document.getElementById("weight");
     let item = document.getElementById("item");
 
