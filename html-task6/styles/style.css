@@ -8,9 +8,19 @@ body {
 }
 
 .form-box {
+  align-items: center;
   margin: 30px auto 0;
   padding: 30px;
+  width: 60%;
   min-width: 600px;
-  width: 1140px;
   background-color: #aa99a6;
+}
+
+#item, weight {
+  width: 40%;
+  min-width: 450px;
+}
+
+#calculate { 
+  width: 25%; min-width: 300px; 
 }
