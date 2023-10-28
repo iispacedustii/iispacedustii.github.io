@@ -12,5 +12,6 @@ body {
   padding: 30px;
   min-width: 600px;
   width: 900px;
+  align-items: center;
   background-color: #aa99a6;
 }
