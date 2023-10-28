@@ -22,6 +22,8 @@ function toCalculate() {
       result.innerHTML = "Стоимость: " + String(Number(item[0].value) * Number(weight[0].value));
     else
       result.innerHTML = "Некорректно введен вес";
+    console.log(result);
+    return false;
 };
 
 document.addEventListener("DOMContentLoaded", (event) => {
