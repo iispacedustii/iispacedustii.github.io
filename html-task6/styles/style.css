@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  font-size: 24px;
+}
+
+body {
+  background-color: #eee6f6;
+}
+
+.form-box {
+  margin: 30px auto 0;
+  padding: 30px;
+  min-width: 600px;
+  width: 1140px;
+  background-color: #aa99a6;
+}
