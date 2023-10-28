@@ -19,7 +19,7 @@ function toCalculate() {
 
     let domAns = document.getElementById("result");
     if(Number(weight.value) && weight.value > 0)
-      result.innerHTML = "Стоимость: " + String(Number(item.value) * Number(weight.value));
+      result.innerHTML = "Стоимость: " + String(Number(item[0].value) * Number(weight[0].value));
     else
       result.innerHTML = "Некорректно введен вес";
 };
