@@ -10,19 +10,57 @@
   </head>
   
   <body>
-    <form class="form-box">
+    <h1>Стоимость товара</h1>
+    
+    <form class="order-1">
       <input id="weight" type="text" placeholder="Введите вес в граммах"></input>
+      
       <select id="item">
         <option value="69">Товар 1</option>
         <option value="89">Товар 2</option>
         <option value="109">Товар 3</option>
       </select> <br>
-      <button id="calculate" onclick="return toCalculate();">Просчитать</button>
       
+      <button id="calculate" onclick="return toCalculate();">Просчитать</button>
       <div id="result">Стоимость: </div>
-      <p> товар 1 - 69р, товар 2 - 89р, товар 3 - 109р</p>
+      
+      <script src="../js/script_task5.js" defer></script>  
     </form>
-    <script src="../js/script_task5.js" defer></script>  
+    
+    <div class="order-2">
+      <p> товар 1 - 69р, товар 2 - 89р, товар 3 - 109р</p>
+    </div>
+
+    <h1>Стоимость услуги</h1>
+    
+    <div class="order-1">
+      <p> 2222222 </p>
+    </div>
+
+    <div class="order-2">
+      
+        <label for="amount_service">Количество:</label>
+        <input id="amount_service" type="text">
+      
+        <ul class="service_choice">
+          <li><input name="r" class="radio-choice" type="radio" value="1">услуга 1</li>
+          <li><input name="r" class="radio-choice" type="radio" value="2">услуга 2</li>
+          <li><input name="r" class="radio-choice" type="radio" value="3">услуга 3</li>
+        </ul>
+        
+        <div id="add">
+          <select name="additional" id="additional">
+            <option value="1" selected>тип 1</option>
+            <option value="2">тип 2</option>
+          </select>
+        </div>
+      
+        <div id="check">
+          <label id="check_label" value="Посыпать солью">Посыпать солью.</label>
+          <input type="checkbox" id="checkbox">
+        </div>
+      
+        <div id="result_service">Стоимость: </div>
+    </div>
   </body>
-  
 </html>
