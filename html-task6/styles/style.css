@@ -39,8 +39,11 @@ h1 {
 #item, weight {
   width: 40%;
   min-width: 450px;
+  margin: 30px;
 }
 
 #calculate { 
-  width: 25%; min-width: 300px; 
+  width: 25%; 
+  min-width: 300px;
+  margin: 30px;
 }
