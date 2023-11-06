@@ -23,6 +23,7 @@
         </select> <br>
         
         <button id="calculate" onclick="return toCalculate();">Просчитать</button>
+        
         <div id="result">Стоимость: </div>
         
         <script src="../js/script_task5.js" defer></script>  
@@ -43,14 +44,14 @@
         <input id="amount_service" type="text" placeholder="Введите вес обработанного материала"> 
       
         <ul class="service_choice">
-          <li><input type="radio" name="radio-6" class="radio-choice" value="1">услуга 1</li>
-          <li><input type="radio" name="radio-6" class="radio-choice" value="2">услуга 2</li>
-          <li><input type="radio" name="radio-6" class="radio-choice" value="3">услуга 3</li>
+          <li><input type="radio" name="radio-6" class="radio-choice" value="189">услуга 1</li>
+          <li><input type="radio" name="radio-6" class="radio-choice" value="249">услуга 2</li>
+          <li><input type="radio" name="radio-6" class="radio-choice" value="299">услуга 3</li>
         </ul>
         
-        <div id="add">
-          <select name="additional" id="additional">
-            <option value="1" checked>тип 1</option>
+        <div id="optional">
+          <select name="additional" id="type-select">
+            <option value="0" checked>тип 1</option>
             <option value="2">тип 2</option>
           </select>
         </div>
@@ -59,8 +60,8 @@
           <label id="check_label" value="20">дополнение к услуге</label>
           <input type="checkbox" id="checkbox">
         </div>
-      
-        <div id="result" onclick="return toCalculate();">Стоимость: </div>
+        
+        <div id="result">Стоимость: </div>
       </order-2>
     </div>
   </body>
