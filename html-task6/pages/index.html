@@ -45,20 +45,20 @@
       
         <div class="service_choice">
           <input type="radio" name="radio-6" class="radio-choice" value="189" onclick="return toCalculate6();">услуга 1<br>
-          <input type="radio" name="radio-6" class="radio-choice" value="249" onclick="return toCalculate6();">услуга 2<br>
+          <input type="radio" name="radio-6" class="radio-choice" value="249">услуга 2<br>
           <input type="radio" name="radio-6" class="radio-choice" value="299" onclick="return toCalculate6();">услуга 3<br>
         </div>
         
-        <div id="optional">
-          <select name="additional" id="type-select">
+        <div id="option2">
+          <select name="additional" id="type-select" onclick="return toCalculate6();">
             <option value="0" checked>тип 1</option>
             <option value="20" >тип 2</option>
           </select>
         </div>
       
-        <div id="check">
-          <label id="check_label" value="20">дополнение к услуге</label>
-          <input type="checkbox" id="checkbox">
+        <div id="option3">
+          <p>дополнение к услуге</p>
+          <input type="checkbox" value="20" id="checkbox" onclick="return toCalculate6();">
         </div>
         
         <div id="result6">Стоимость: </div>
