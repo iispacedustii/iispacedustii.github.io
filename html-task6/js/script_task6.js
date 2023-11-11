@@ -37,26 +37,20 @@ function toCalculate6() {
     let service = document.getElementById("radio-choice");
     let select = document.getElementById("select6");
     let check = document.getElementById("checkbox6");
-    
+    let result = document.getElementById("result6");
+  
     let option2 = document.getElementById("option2");
-    let option3 = document.getElementById("option3");
-
-    if (service.value == 189)
-      {
-        option2.style.display = "block";
-        option3.style.display = "block";
-      }
-      if (service.value == 249)
-      {
+    if (service.value == 249)
         option2.style.display = "none";
-        option3.style.display = "block";
-      }
-      if (service.value == 299)
-      {
+    else
         option2.style.display = "block";
-        option3.style.display = "none";
-      }
-    
+  
+    let option3 = document.getElementById("option3");
+    if (service.value == 299)
+      option3.style.display = "none";
+    else
+      option3.style.display = "block";
+
     if (Number(weight.value) && weight.value > 0)
     {
       if (service.value == 189)
