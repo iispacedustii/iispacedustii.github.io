@@ -40,27 +40,31 @@ function toCalculate6() {
     
     let option2 = document.getElementById("option2");
     let option3 = document.getElementById("option3");
-  
-    if (Number(weight.value) && weight.value > 0)
-    {
-      if (service.value == 189)
+
+    if (service.value == 189)
       {
         option2.style.display = "block";
         option3.style.display = "block";
-        result.innerHTML = "Стоимость: " + String(Number(weight.value) * Number(service.value));
       }
       if (service.value == 249)
       {
         option2.style.display = "none";
         option3.style.display = "block";
-        result.innerHTML = "Стоимость: " + String(Number(weight.value) * Number(service.value) + Number(select.value));
       }
       if (service.value == 299)
       {
         option2.style.display = "block";
         option3.style.display = "none";
-        result.innerHTML = "Стоимость: " + String(Number(weight.value) * Number(service.value) + Number(check.value));
       }
+    
+    if (Number(weight.value) && weight.value > 0)
+    {
+      if (service.value == 189)
+        result.innerHTML = "Стоимость: " + String(Number(weight.value) * Number(service.value));
+      if (service.value == 249)
+        result.innerHTML = "Стоимость: " + String(Number(weight.value) * Number(service.value) + Number(select.value));
+      if (service.value == 299)
+        result.innerHTML = "Стоимость: " + String(Number(weight.value) * Number(service.value) + Number(check.value));
     }
     else
       result.innerHTML = "Некорректно введено количество";
