@@ -34,7 +34,7 @@ function reset() {
 
 function toCalculate6() {
     let weight = document.getElementById("service-amount");
-    let service = document.getElementByName("radio-choice");
+    let service = document.getElementsByName("radio-choice");
     let select = document.getElementById("select6");
     let check = document.getElementById("checkbox6");
     let result = document.getElementById("result6");
