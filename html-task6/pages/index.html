@@ -25,7 +25,7 @@
         <button id="calculate" onclick="return toCalculate5();">Просчитать</button>
         
         <div id="result5">Стоимость: </div>
-        <script src="script.js" defer></script>  
+        <script src="../js/script_task5.js" defer></script>  
       </order-1>
       
       <order-2>
@@ -43,26 +43,26 @@
       <order-2 class="form-box">
         <input type="text" id="service-amount" placeholder="Введите вес обработанного материала"> 
       
-        <div class="service_choice">
-          <input type="radio" name="radio-choice" value="189" checked>услуга 1<br>
-          <input type="radio" name="radio-choice" value="249">услуга 2<br>
-          <input type="radio" name="radio-choice" value="299">услуга 3<br>
+        <div class="service_choice" id="service_choice">
+          <input type="radio" name="radio-choice" value="189" onclick="return radioButton1();" checked>услуга 1<br>
+          <input type="radio" name="radio-choice" value="249" onclick="return radioButton2();">услуга 2<br>
+          <input type="radio" name="radio-choice" value="299" onclick="return radioButton3();">услуга 3<br>
         </div>
         
-        <div id="option2">
-          <select id="select6">
+        <div id="option2" style="display:none;">
+          <select id="select6" >
             <option value="0" checked>тип 1</option>
             <option value="20" >тип 2</option>
           </select>
         </div>
       
-        <div id="option3">
+        <div id="option3" style="display:none;">
           <p>дополнение к услуге</p>
           <input type="checkbox" id="checkbox6" value="20">
         </div>
         
         <div id="result6">Стоимость: </div>
-        <script src="script2.js" defer></script>  
+        <script src="../js/script_task6.js" defer></script>  
       </order-2>
     </div>
   </body>
