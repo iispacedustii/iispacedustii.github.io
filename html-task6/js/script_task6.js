@@ -33,37 +33,28 @@ function reset() {
 
 function toCalculate6() {
     let weight = document.getElementById("service-amount");
-    let service = document.getElementsByName("radio-choice");
     let select = document.getElementById("select6");
     let check = document.getElementById("checkbox6");
     let result = document.getElementById("result6");
 
+    let service_choice = document.getElementsById("service_choice");
+    let service = document.getElementsByName("radio-choice");
     let service_price = 0;
-    radios.forEach((service) => {
-        if(radio.checked)
+    service_choice.forEach((service) => {
+        if(service.checked)
             service_price = Number(service.value);
     });
   
-    let option2 = document.getElementById("option2");
-    if (service.value == "249")
-        option2.style.display = 'none';
-    else
-        option2.style.display = 'block';
-  
-    let option3 = document.getElementById("option3");
-    if (service.value == "299")
-      option3.style.display = 'none';
-    else
-      option3.style.display = 'block';
+result.innerHTML = service_price;
 
     if (Number(weight.value) && weight.value > 0)
     {
-      if (service.value == "189")
-        result.innerHTML = "Стоимость: 1 " + String(Number(weight.value) * Number(service.value));
-      if (service.value == "249")
-        result.innerHTML = "Стоимость: 2 " + String(Number(weight.value) * Number(service.value) + Number(select.value));
-      if (service.value == "299")
-        result.innerHTML = "Стоимость: 3 " + String(Number(weight.value) * Number(service.value) + Number(check.value));
+      if (service_price == 189)
+        result.innerHTML = "Стоимость: 1 " + String(Number(weight.value) * service_price);
+      if (service_price == 249)
+        result.innerHTML = "Стоимость: 2 " + String(Number(weight.value) * service_price + Number(select.value));
+      if (service_price == 299)
+        result.innerHTML = "Стоимость: 3 " + String(Number(weight.value) * service_price + Number(check.value));
     }
     else
       result.innerHTML = "Некорректно введено количество";
@@ -72,3 +63,24 @@ function toCalculate6() {
     console.log(result);
     return false;
 };
+
+function radioButton1() {
+    let option2 = document.getElementById("option2");
+    let option3 = document.getElementById("option3");
+    option2.style.display = 'none';
+    option3.style.display = 'none';
+}
+
+function radioButton2() {
+    let option2 = document.getElementById("option2");
+    let option3 = document.getElementById("option3");
+    option2.style.display = 'block';
+    option3.style.display = 'none';
+}
+
+function radioButton3() {
+    let option2 = document.getElementById("option2");
+    let option3 = document.getElementById("option3");
+    option2.style.display = 'none';
+    option3.style.display = 'block';
+}
