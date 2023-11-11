@@ -1,4 +1,4 @@
-function toCalculate() {
+function toCalculate5() {
     let weight = document.getElementById("weight");
     let item = document.getElementById("item");
     let domAns = document.getElementById("result5");
