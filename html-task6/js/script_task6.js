@@ -37,7 +37,9 @@ function toCalculate6() {
     let service = document.getElementById("radio-choice");
     let select = document.getElementById("select6");
     let check = document.getElementById("checkbox6");
-
+    
+    let option2 = document.getElementById("option2");
+    let option3 = document.getElementById("option3");
   
     if (Number(weight.value) && weight.value > 0)
     {
