@@ -1,4 +1,4 @@
-function updatePrice() {
+/*function updatePrice() {
     let result_price = 0;
     let main_price = document.getElementsByName("radio-6");
 
@@ -21,46 +21,49 @@ function updatePrice() {
     (input.value !== undefined) ?
         /^[0-9]+$/.test(input.value) ? VALUE *= Number(input.value) : null : null;
 
+document.getElementById('form').style.display = 'block';
+  
     document.getElementById("result_service").innerHTML = ${VALUE} + "руб.";
 }
 
 function reset() {
     document.getElementById("type-select").value = 0;
     document.getElementById("checkbox").checked = false;
-}
+}*/
 
-/*document.addEventListener("DOMContentLoaded", (event) => {
-    console.log("DOM loaded");
-    reset();
-    let radios = document.getElementsByName("r");
 
-    let additionals = document.getElementById("add");
-    let additional_select = document.getElementById("additional");
-    let check = document.getElementById("check");
-    let input = document.getElementById("amount_service");
+function toCalculate6() {
+    let weight = document.getElementById("service-amount");
+    let service = document.getElementById("radio-choice");
+    let select = document.getElementById("select6");
+    let check = document.getElementById("checkbox6");
 
-    additional_select.value="Обычный лаваш";
+  
+    if (Number(weight.value) && weight.value > 0)
+    {
+      if (service.value == 189)
+      {
+        option2.style.display = "block";
+        option3.style.display = "block";
+        result.innerHTML = "Стоимость: " + String(Number(weight.value) * Number(service.value));
+      }
+      if (service.value == 249)
+      {
+        option2.style.display = "none";
+        option3.style.display = "block";
+        result.innerHTML = "Стоимость: " + String(Number(weight.value) * Number(service.value) + Number(select.value));
+      }
+      if (service.value == 299)
+      {
+        option2.style.display = "block";
+        option3.style.display = "none";
+        result.innerHTML = "Стоимость: " + String(Number(weight.value) * Number(service.value) + Number(check.value));
+      }
+    }
+    else
+      result.innerHTML = "Некорректно введено количество";
 
-    additionals.style.display = "none";
-    check.style.display = "none";
-
-    input.addEventListener("input", () => {
-        updatePrice();
-    })
-
-    additional_select.addEventListener("change", (event) => {
-        updatePrice();
-    });
-
-    radios.forEach((radio) => {
-        radio.checked = false;
-        radio.addEventListener("change", (event) => {
-            reset();
-            updatePrice();
-        })
-    });
-
-    document.getElementById("checkbox").addEventListener("change", (event) => {
-        updatePrice();
-    });
-});*/
+    
+    console.log(result);
+    return false;
+};
