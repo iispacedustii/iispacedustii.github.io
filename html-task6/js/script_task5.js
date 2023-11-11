@@ -1,7 +1,7 @@
 function toCalculate() {
     let weight = document.getElementById("weight");
     let item = document.getElementById("item");
-    let domAns = document.getElementById("result");
+    let domAns = document.getElementById("result5");
     
     if(Number(weight.value) && weight.value > 0)
       result.innerHTML = "Стоимость: " + String(Number(item.value) * Number(weight.value));
