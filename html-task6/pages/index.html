@@ -43,10 +43,10 @@
       <order-2 class="form-box">
         <input type="text" id="service-amount" placeholder="Введите вес обработанного материала"> 
       
-        <div class="service_choice" id="service_choice">
-          <input type="radio" name="radio-choice" value="189" onclick="return radioButton1();" checked>услуга 1<br>
-          <input type="radio" name="radio-choice" value="249" onclick="return radioButton2();">услуга 2<br>
-          <input type="radio" name="radio-choice" value="299" onclick="return radioButton3();">услуга 3<br>
+        <div class="service_choice">
+          <input type="radio" name="radio-choice" onclick="return radioButton1();" checked>услуга 1<br>
+          <input type="radio" name="radio-choice" onclick="return radioButton2();">услуга 2<br>
+          <input type="radio" name="radio-choice" onclick="return radioButton3();">услуга 3<br>
         </div>
         
         <div id="option2" style="display:none;">
@@ -57,8 +57,8 @@
         </div>
       
         <div id="option3" style="display:none;">
-          <p>дополнение к услуге</p>
-          <input type="checkbox" id="checkbox6" value="20">
+          дополнение к услуге<br>
+          <input type="checkbox" id="checkbox6">
         </div>
         
         <div id="result6">Стоимость: </div>
