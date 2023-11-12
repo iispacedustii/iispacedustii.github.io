@@ -8,12 +8,12 @@ body {
     justify-self: center;
 }
 
-.slider-img img {
+.slider-img, img {
     width: 400px;
     height: 400px;
     margin: auto;
 }
 
 .slick-prev:before, .slick-next:before{
-    color:red;
+    color: #44aaaa;
 }
