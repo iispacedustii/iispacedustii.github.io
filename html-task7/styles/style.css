@@ -1,5 +1,6 @@
 body {
     background-color: #446655;
+    padding: 30px 20px;
 }
 .slider {
     display: flex;
