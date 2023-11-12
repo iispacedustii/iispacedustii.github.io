@@ -23,6 +23,7 @@ h1 {
   display: flex;
   align-items: center;
   margin: 30px 0 30px 60px;
+  padding: 30px 0 30px 60px;
 }
 
 .ordered-row order-1 {
