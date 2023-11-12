@@ -1,6 +1,7 @@
 body {
     background-color: #446655;
     padding: 20px;
+    text-align: center;
 }
 .slider {
     display: flex;
