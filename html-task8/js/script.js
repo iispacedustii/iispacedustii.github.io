@@ -15,60 +15,22 @@ function restore() {
 }
 
 
-document.addEventListener("DOMContentLoaded", () => {
-    let button = document.getElementById("button");
-    let input8 = document.querySelectorAll("input");
-    let popup = document.getElementById("popup");
-    popup.style.display = "none";
-  
-    button.addEventListener("click", () => {
-        popup.style.display = "block";
-        history.pushState({"show_form": true}, "show_form", "?show_form=true")
-    });
+        <script src="https://cdn.jsdelivr.net/npm/slapform@latest/dist/index.min.js"></script>
+<script type="text/javascript">
+var slapform = new Slapform();
+slapform.submit({
+form: 'IImVjABbg',
+data: {
+name: 'Jon Snow',
+message: 'Hello World!',
+}
+})
+.then(function (response) {
+console.log('Success', response)
+})
+.catch(function (e) {
+console.error('Fail', e)
+})
+</script>
 
-    input8.forEach((input) => {
-        input8.addEventListener("input", () => {
-            save();
-        })
-    })
-
-    let form = document.getElementById("form");
-    form.addEventListener("submit", (event) => {
-        event.preventDefault();
-        
-        fetch(" ", {
-            method: "POST",
-            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-            body: JSON.stringify(
-                {
-                    fullname: document.getElementById('fullname').value,
-                    email: document.getElementById('email').value,
-                    phone: document.getElementById('phone').value,
-                    organization: document.getElementById('organization').value,
-                    message: document.getElementById('message').value,
-                }
-            )
-        })
-        .then((response) => {
-            if(response.ok) {
-                alert("Форма отправлена успешно!");
-                form.reset();
-                localStorage.clear();
-            } else {
-                throw new Error('Ошибка при отправке формы.');
-            }
-        })
-        .catch((err) => {
-            alert(err);
-        })
-
-        history.back();
-    });
-
-    window.addEventListener("popstate", () => {
-        popup.style.display = "none";
-    })
-
-
-    restoreFormValues();
-});
+ 
