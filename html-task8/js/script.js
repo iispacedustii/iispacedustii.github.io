@@ -19,11 +19,15 @@ function restore() {
     let popup = document.getElementById("popup");
     let form = document.getElementById("form");
     let input8 = document.querySelectorAll("input");
-
+     
+    popup.style.display = "none";
+     
     button.addEventListener("click", () => {
-      document.getElementById("form").style.display = "block";
+      popup.style.display = "block";
       history.pushState({"show_form": true}, "show_form", "?show_form=true")
     });
+     
+
 
     input8.forEach((input) => {
       input8.addEventListener("input", () => {
