@@ -14,12 +14,6 @@ function restore() {
     document.getElementById('text').value = localStorage.getItem('text');
 }
 
-
-        <script src="https://cdn.jsdelivr.net/npm/slapform@latest/dist/index.min.js"></script>
-<script type="text/javascript">
-
-</script>
-
  document.addEventListener("DOMContentLoaded", () => {
     let button = document.getElementById("button");
     let popup = document.getElementById("popup");
