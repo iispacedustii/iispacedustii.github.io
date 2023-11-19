@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let input8 = document.querySelectorAll("input");
   
   button.addEventListener("click", () => {
-    popup.style.display = "block";
+    form.style.display = "block";
     history.pushState({"show_form": true}, "show_form", "?show_form=true")
   });
 
